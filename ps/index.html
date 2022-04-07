@@ -63,13 +63,19 @@
         border-radius: 10px;
         padding: 5px 10px;
         font-size: 30px;
-        background-color: #9ACD32;
+        cursor: pointer;
+        border: none;
+        background-color: #9acd32;
         outline: none;
         text-decoration: none;
         color: black;
       }
+
+      .btn:last-child {
+        margin-bottom: 25px;
+      }
       .black h1 {
-        color: #9ACD32;
+        color: #9acd32;
       }
       .black p {
         font-size: 18px;
@@ -87,7 +93,8 @@
           <div class="question">
             <h1>Pergunta 1</h1>
             <p>
-              Você quer saber qual é a vitamina que vai fazer você perder gordura?
+              Você quer saber qual é a vitamina que vai fazer você perder
+              gordura?
             </p>
           </div>
           <div class="answer">
@@ -98,10 +105,27 @@
         <div id="segunda" class="hide">
           <div class="question">
             <h1>Pergunta 2</h1>
-            <p>"Quais dietas (ou maneiras de perder peso) você já tentou?"</p>
-            <p style="font-size: 5px">Você vai descobrir o porquê de nada ter funcionado...</p>
+            <p>Quais dietas (ou maneiras de perder peso) você já tentou?</p>
+            <p
+              style="
+                font-size: 10px;
+                margin-top: -15px;
+                margin-bottom: 28px;
+                color: yellow;
+              "
+            >
+              Você vai descobrir porque nada funcionou...
+            </p>
           </div>
-          <div class="answer" style="display: flex; flex-direction: column; align-items: center; justify-content:center">
+          <div
+            class="answer"
+            style="
+              display: flex;
+              flex-direction: column;
+              align-items: center;
+              justify-content: center;
+            "
+          >
             <button class="btn" onclick="terceira()">Low Carb</button>
             <button class="btn" onclick="terceira()">Jejum intermitente</button>
             <button class="btn" onclick="terceira()">Outras</button>
@@ -121,7 +145,7 @@
           </div>
         </div>
       </div>
-      <p style="text-align: center; font-weight: bold; color:white">
+      <p style="text-align: center; font-weight: bold; color: white">
         © 2022 – Todos os direitos reservados. Este site não faz parte nem é
         endossado pelo Facebook. Facebook é uma marca comercial da Facebook,
         Inc.
