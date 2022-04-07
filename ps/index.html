@@ -42,7 +42,7 @@
       }
       .black {
         background-color: black;
-        padding: 10px;
+        padding: 35px;
         text-align: center;
         border-radius: 20px;
         box-shadow: 0 0 10px 2px black;
@@ -58,6 +58,11 @@
           grid-template-columns: repeat(1, auto);
           gap: 10px;
         }
+
+        .btn {
+          max-width: 350px;
+          white-space: nowrap;
+        }
       }
       .btn {
         border-radius: 10px;
@@ -71,9 +76,6 @@
         color: black;
       }
 
-      .btn:last-child {
-        margin-bottom: 25px;
-      }
       .black h1 {
         color: #9acd32;
       }
@@ -127,7 +129,9 @@
             "
           >
             <button class="btn" onclick="terceira()">Low Carb</button>
-            <button class="btn" onclick="terceira()">Jejum intermitente</button>
+            <button class="btn jejum" onclick="terceira()">
+              Jejum intermitente
+            </button>
             <button class="btn" onclick="terceira()">Outras</button>
           </div>
         </div>
